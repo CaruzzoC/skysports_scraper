@@ -32,4 +32,4 @@ This is a module, so if you need to use it, you only need to import skysport_scr
 
 * scrap_page(url) : use the input url to scrap the page. Gives a pandas DataFrame as an output.\
 
-![scrap_page_output_exemple](https://github.com/CaruzzoC/skysports_scraper/tree/master/img/result_DataFrame.PNG)
+![scrap_page_output_exemple](img/result_DataFrame.PNG)
