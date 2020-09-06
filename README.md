@@ -16,7 +16,7 @@ The goal of this scraper is to get all the data contained in the main table:
 * L : numberof matches lost
 * F : number of goal scored
 * A : number of goal conceded
-* GD : difference between A and F (F - A)
+* GD : delta(F,A) <=> (F - A)
 * Pts : +1 for tie, +3 for win, +0 for loss
 
 ## Code and Resources Used
@@ -26,10 +26,9 @@ The goal of this scraper is to get all the data contained in the main table:
 
 ## Uses
 
-This is a module, so if you need to use it, you only need to import skysport_scraper_module, and call its function
+This is a module, so if you need to use it, you only need to import skysport_scraper_module, and call its functions.
 
 ### Current fonctions
 
-* scrap_page(url) : use the input url to scrap the page. Gives a pandas DataFrame as an output.\
-
+* scrap_page(url) : use the input url to scrap the page. Gives a pandas DataFrame as an output.
 ![scrap_page_output_exemple](img/result_DataFrame.PNG)
